@@ -208,7 +208,12 @@ button{
     z-index: var(--zindex-fixed);
     padding: var(--sp-3) 10px var(--sp-2);
   }
+
+  .nav__menu--open{
+    left: 0;
+  }
 }
+
 
 .nav__menu .btn--close{
   position: absolute;
@@ -430,6 +435,12 @@ img{
   max-width: 320px;
   width: 100%;
   background-color: var(--header-color);
+  box-shadow: 0 0 10px rgba(90, 90, 90, 0.555);
+  transition: all .5s;
+}
+
+.cart__open{
+  right: 0;
 }
 
 .cart__container{
